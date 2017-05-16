@@ -1,0 +1,33 @@
+@import '../styles/mixins';
+
+:global {
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		color: rgba(0, 0, 0, 0.87);
+		font-size: 1.1em;
+		line-height: 1.5;
+
+		@include width(large) {
+			font-size: 1.25em;
+		}
+
+		#wrapper {
+			float: left;
+			width: 100%;
+		}
+	}
+
+}
+
+:local {
+
+	.app {
+		float: left;
+		width: 100%;
+	}
+
+}

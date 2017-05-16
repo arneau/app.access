@@ -1,0 +1,8 @@
+*:focus {
+	outline: 0;
+}
+
+body, p {
+	margin: 0;
+	padding: 0;
+}
