@@ -1,0 +1,36 @@
+@import '../../styles/config';
+@import '../../styles/mixins';
+
+:local {
+
+	.home {
+		float: left;
+		padding: 1rem;
+		width: 100%;
+
+		@include width(medium) {
+			padding: 1.5rem;
+		}
+		@include width(large) {
+			padding: 2rem;
+		}
+
+		.filter {
+			border: none;
+			border-radius: 2px;
+			float: left;
+			font-size: 1rem;
+			padding: 1rem;
+			margin-bottom: 1rem;
+			width: 100%;
+
+			@include width(medium) {
+				margin-bottom: 1.5rem;
+			}
+			@include width(large) {
+				margin-bottom: 1.5rem;
+			}
+		}
+	}
+
+}
